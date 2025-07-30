@@ -1,6 +1,8 @@
 // App.jsx
 import React from 'react';
 import './App.css';
+import tcs from './assets/tcs.png';
+import conti from './assets/conti.png';
 
 const App = () => {
   return (
@@ -75,6 +77,9 @@ const App = () => {
           <h2 className="section-title">Experience</h2>
           <div className="timeline">
             <div className="timeline-item">
+              <div className='logo'>
+                <img src={tcs} alt="TCS Logo" className="company-logo" />
+              </div>
               <span className="timeline-period">2021 - Present</span>
               <h3 className="timeline-title">Senior Software Engineer</h3>
               <p className="timeline-company">TechCorp Solutions</p>
@@ -90,6 +95,9 @@ const App = () => {
               </div>
             </div>
             <div className="timeline-item">
+              <div className='logo'>
+                <img src={conti} alt="Conti Logo" className="conti-logo" />
+              </div>
               <span className="timeline-period">2018 - 2021</span>
               <h3 className="timeline-title">Software Developer</h3>
               <p className="timeline-company">WebDev Studios</p>
